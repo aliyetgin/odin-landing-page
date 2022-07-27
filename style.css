@@ -48,7 +48,7 @@ h1,h2,h3{
     flex-wrap: wrap;
 } 
 
-.sign-up-btn{
+button{
   background-color: #3882F6; 
   border: none;
   color: white;
@@ -130,4 +130,41 @@ img {
     font-weight: 800;
     text-align: right;
     font-size: 22px;
+}
+
+.call-to-action{
+    padding: 5% 10% ;
+}
+
+.call-to-action-container{
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    padding: 2.5% 5%;
+    justify-content: space-around;
+    line-height: 1.0;
+    width: 80%;
+    height: 100px;
+}
+
+.cta-text{
+    color: #F9FAF8;
+    align-self: center;
+}
+
+.cta-text h4{
+    font-size: 32px;
+    margin: 0;
+}
+
+.cta-text p{
+    font-size: 20px;
+    margin: 5px 0 0 0;
+}
+
+.cta-btn {
+    border: 2px solid white;
+    flex-grow: 0;
+    height: fit-content;
+    align-self: center;
 }
