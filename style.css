@@ -134,6 +134,8 @@ img {
 
 .call-to-action{
     padding: 5% 10% ;
+    display: flex;
+    justify-content: center;
 }
 
 .call-to-action-container{
@@ -167,4 +169,18 @@ img {
     flex-grow: 0;
     height: fit-content;
     align-self: center;
+}
+
+footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 5%;
+}
+
+footer p{
+    margin: 0;
+    font-size: 20px;
+    color: #F9FAF8;
 }
